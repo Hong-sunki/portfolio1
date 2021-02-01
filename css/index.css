@@ -14,7 +14,7 @@ textarea { outline: none; }
 #header h1 span { font-size: 18px; }
 #header .depth1 { position: absolute; bottom: 0px; left: 40%; }
 #header .depth1 li { position: relative; display: inline-block;  margin: 20px 35px; transition: all 0.8s; font-weight: bold; color: rgba(255, 255, 255, 0.6); }
-#header .depth1 li.on { color: #fff; border-bottom: 1px solid #fff; padding-bottom: 5px; }
+#header .depth1 li.on { color: #fff; border-bottom: 1px dashed #fff; padding-bottom: 5px; }
 #header .depth1 li::after { content: ''; position: absolute; top: 50%; left: 100%; transform: translateY(-50%) skew(-45deg); width: 1px; height: 30px; 
                             background: rgba(255, 255, 255, 0.6); margin-left: 35px; }
 #header .depth1 li:nth-child(4)::after { display: none; }
